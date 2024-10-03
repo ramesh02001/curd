@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  justify-content: center; /* Horizontally center the table */
+  align-items: center; /* Vertically center the table (optional) */
+  height: 100vh; /* Optional: makes the parent container fill the viewport height */
+}
+
+table {
+  margin: 0 auto; /* Centers the table horizontally */
+  border-collapse: collapse; /* Optional: for cleaner table borders */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Optional: add border to table cells */
+}
+
+thead, tfoot {
+  background-color: #f2f2f2; /* Optional: add background color to headers and footers */
+}
